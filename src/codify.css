@@ -1,0 +1,269 @@
+body{
+    margin:0;
+}
+.header{
+    background-color: #023e8a;
+    font-size: 30px;
+    padding-bottom: 2.5%;
+    padding-top: 2%;
+    width:100%;
+    margin: 0;
+   
+}
+.buttons{
+    display: block;
+    text-align: right;
+    position: relative; 
+    left: -45px;
+    margin-top: -4%;
+}
+
+.home{
+   text-align: center;
+   height:40px;
+   width:90px;
+   font-size: 15px;
+   font-style: 'Open Sans', sans-serif;;
+   background-color:#76c893;
+   border: none;
+   border-radius: 12px;
+   font-family: 'Bebas Neue', cursive;
+   font-family: 'Open Sans', sans-serif;
+   font-family: 'Redressed', cursive;
+ 
+}
+.home:hover {
+    background-color: #76c893; 
+    cursor: pointer;
+    box-shadow: 1px 1px gray, -.4em 0 .4em gray;
+}
+.inele{
+    text-align: left;
+    padding-left: 2%;
+    color: #fffffb;
+    font-size: 50px;
+    font-family: 'Redressed', cursive;
+}
+.courses{
+    margin-left: 2%;
+    padding-bottom: 2%;
+    margin-top: -65px;
+}
+
+.course{
+    height: 80%;
+    width: 90%;
+    box-sizing: 50%;
+    box-shadow: 2px 2px #adb5bd, -.4em 0 .4em #adb5bd;
+    text-align: center;
+    padding-bottom: 55px;
+}
+
+.course:hover{
+    box-shadow: 1px 1px gray, -.4em 0 .4em gray;
+}
+
+.test{ 
+    display: grid;
+    grid-template-columns: repeat(4, 300px) ;
+    row-gap: 30px;
+    
+ }
+
+.quote{
+    position: relative;
+    top: -250px;
+    color: whitesmoke;
+    font-size: 40px;
+    word-spacing: 5px;
+    letter-spacing: -2px;
+    padding-left: 2%;
+    
+}
+
+.author{
+    text-align: right; 
+    padding-right: 3%;
+}
+
+h2{
+    font-size: 50px;
+    text-align: center;
+    margin-top: -90px;
+}
+
+.intro{
+    font-size: 28px;
+    text-align: center;
+   margin-top: -36px;
+   font-family: 'Bebas Neue', cursive;
+}
+h3{
+    font-size: 30px;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+.desc{
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.java{
+    font-size: 15px;
+}
+.courselink{
+    color: black;
+    font-size: 20px;
+    text-decoration: unset;
+}
+
+.headerbutton{
+    text-decoration: unset;
+    color: black;
+}
+
+.name{
+    text-align: center;
+}
+
+.circles{
+    display: grid;
+    grid-template-columns: repeat(4, 300px) ;
+    row-gap: 30px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+
+.circle{
+    border: 1px solid ;
+    border-radius: 50% ;
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    background-color: thistle;
+}
+
+.doubt{
+    position: relative;
+    left: 50px;
+    top: 40px;
+}
+.doubt_desc{
+    margin-top: 10px;
+    margin-left: -20px;
+    font-size: 20px;
+}
+.dou{
+    position: relative;
+    bottom: 20px;
+    left: 12px;
+    font-size: 20px;
+}
+
+.certi{
+    position: relative;
+    left: 52px;
+    top: 36px;
+}
+
+.certi_desc{
+
+    margin-top: 10px;
+    margin-left: -20px;
+    font-size: 20px;
+}
+
+.cer{
+    margin-top: -19px;
+    font-size: 20px;
+}
+
+.expert{
+    position: relative;
+    left: 50px;
+    top: 40px;
+}
+
+.expert_desc{
+    font-size: 20px;
+    margin-top:-8px;
+    margin-left: -1px;
+}
+
+.exp{
+    font-size: 20px;
+    margin-top:-20px;
+    margin-left: 15px;
+}
+
+.work{
+    position: relative;
+    left: 50px;
+    top: 44px;
+}
+
+.work_desc{
+    font-size: 20px;
+    margin-top: 4px;
+    margin-left: -14px;
+}
+
+.ruppee{
+    font-size: 22px;
+    margin-top: -8px;
+    margin-bottom: -8px;
+}
+
+footer{
+    color: whitesmoke;
+    background-color: #023e8a;
+    margin-bottom: -20px;
+}
+.foo{
+    padding-left: 100px;
+    font-size: 26px;
+    padding-top: 30px;
+}
+.ter{
+    padding-left: 100px;
+    font-size: 18px;
+    margin-top: -24px;
+
+}
+
+.image{
+    padding-left: 100px;
+    padding-top: -15px;
+}
+
+.border{
+    border: solid 1px whitesmoke;
+}
+
+.off{
+    padding-top: 0px;
+    padding-left: 100px;
+    padding-bottom: 10px;
+    margin-bottom: -8px;
+    
+    
+}
+.astyle{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.on{
+    
+    padding-bottom: 30px;
+}
+
+hr{
+    border: 0.1px solid #0077b6;
+   
+}
